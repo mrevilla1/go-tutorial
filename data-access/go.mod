@@ -1,4 +1,4 @@
-module example/data-access
+module github.com/mrevilla1/goTutorial/data-access
 
 go 1.23.1
 

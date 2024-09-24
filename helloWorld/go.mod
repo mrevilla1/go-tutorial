@@ -1,4 +1,4 @@
-module example/hello
+module github.com/mrevilla1/goTutorial/helloWolrd
 
 go 1.23.1
 

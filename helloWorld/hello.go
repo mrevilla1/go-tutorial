@@ -6,7 +6,10 @@ import (
 	"rsc.io/quote"
 )
 
-func main() {
+func HelloWorld() {
 	fmt.Println("Hello World!!")
 	fmt.Println(quote.Glass())
+}
+func main() {
+	HelloWorld()
 }

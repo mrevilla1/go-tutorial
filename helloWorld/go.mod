@@ -1,4 +1,4 @@
-module github.com/mrevilla1/goTutorial/helloWolrd
+module github.com/mrevilla1/goTutorial/helloWorld
 
 go 1.23.1
 

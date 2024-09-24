@@ -1,4 +1,4 @@
-package helloWorld
+package hellorelatives
 
 import (
 	"fmt"

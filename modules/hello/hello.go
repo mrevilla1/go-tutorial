@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/mrevilla1/go-tutorial/modules/greetings"
 )
 
 func HelloMain() {
@@ -27,9 +28,4 @@ func HelloMain() {
 	// to the console.
 	fmt.Println(message)
 	fmt.Println(message2)
-    go list -f '{{.Target}}'
-    go list -f '{{.Target}}'
-    /home/marco/go/bin/hello
-    set PATH=%PATH%;C:\path\to\your\install\directory
-    export PATH=$PATH:home/marco/go/bin/hello
-go 
+}

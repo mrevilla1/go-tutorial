@@ -1,4 +1,4 @@
-package main
+package webgin
 
 import (
 	"net/http"
@@ -56,7 +56,7 @@ func getAlbumByID(c *gin.Context) {
 	c.IndentedJSON(http.StatusNotFound, gin.H{"message": "album not found"})
 }
 
-func main() {
+func WebServiceGinMain() {
 	router := gin.Default()
 	router.GET("/albums", getAlbums)
 	router.POST("/albums", postAlbums)

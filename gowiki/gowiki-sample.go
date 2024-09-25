@@ -1,4 +1,4 @@
-package main
+package gowiki
 
 import (
 	"errors"
@@ -126,7 +126,7 @@ func renderTemplate(w http.ResponseWriter, tmpl string, p *Page) {
 	}
 }
 
-func main() {
+func GowikiMain() {
 	p1 := &Page{Title: "TestPage", Body: []byte("This is a sample Page.")}
 	p1.save()
 	p2, _ := loadPage("TestPage")

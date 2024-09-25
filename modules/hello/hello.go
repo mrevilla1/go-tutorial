@@ -1,13 +1,12 @@
-package main
+package hello
 
 import (
 	"fmt"
 	"log"
 
-	"rabor.io/greetings"
 )
 
-func main() {
+func HelloMain() {
 	// Set properties of the predefined Logger, including
 	// the log entry prefix and a flag to disable printing
 	// the time, source file, and line number.

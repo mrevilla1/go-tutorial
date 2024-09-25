@@ -1,4 +1,4 @@
-package main
+package fuzz
 
 import (
 	"errors"
@@ -19,7 +19,7 @@ func Reverse(s string) (string, error) {
 	return string(r), nil
 }
 
-func main() {
+func FuzzMain() {
 	input := "The quick brown fox jumped over the lazy dog"
 	rev, revErr := Reverse(input)
 	doubleRev, doubleRevErr := Reverse(rev)
